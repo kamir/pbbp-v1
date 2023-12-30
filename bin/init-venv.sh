@@ -1,3 +1,4 @@
+#!/bin/bash
 #
 # Define your Python environment you want to use.
 #

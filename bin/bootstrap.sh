@@ -1,17 +1,28 @@
-source ./init-venv.sh
+#!/bin/bash
 
-pip install -r ./../requirements.txt
+source ./cfg/env.sh
+
+source $BOT_BASE_DIR/init-venv.sh
+
+pip install -r $BOT_BASE_DIR/requirements.txt
 
 ### Prepare Assistant modules, working on MY-MEMORY
 cd assisstent
-git submodule add https://github.com/kamir/opi-bot-poc ./../assistent/opi-bot-poc
+git submodule add https://github.com/kamir/opi-bot-poc $BOT_BASE_DIR/assistent/opi-bot-poc
 git submodule update --init --recursive
 
 ### Prepare MY-MEMORY
-git submodule add https://github.com/kamir/my-memories-mk-v1-001 ./../data-stage
+git submodule add https://github.com/kamir/my-memories-mk-v1-001 $BOT_BASE_DIR/data-stage
 git submodule update --init --recursive
+
+mkdir $BOT_BASE_DIR/data-stage/llama-index
+mkdir $BOT_BASE_DIR/data-stage/raw-data-temp
+mkdir $BOT_BASE_DIR/data-stage/raw-data-stage
+mkdir $BOT_BASE_DIR/data-stage/context1
+mkdir $BOT_BASE_DIR/data-stage/context2
+mkdir $BOT_BASE_DIR/data-stage/context3
 
 #
 # We use some of the OPI-BOT-COMPONENTS
 #
-source ./../assisstent/opi-bot-poc/components/asynch-event-api/bootstrap.sh true
+source $BOT_BASE_DIR/assisstent/opi-bot-poc/components/asynch-event-api/bootstrap.sh true
