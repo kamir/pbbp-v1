@@ -24,5 +24,6 @@ json_folder = bot_base_dir + '/data-stage/raw-data-stage/ocr-json-storage'
 non_refined_json_files = filter_json_files_by_refined_status(json_folder, 'done')
 print("> JSON files where 'refined' is not 'done':")
 for file in non_refined_json_files:
-    print(file)
+    new_file_name = file.rsplit('.json', 1)[0]
+    print( "http://127.0.0.1:8080/edit/" + new_file_name)
 
