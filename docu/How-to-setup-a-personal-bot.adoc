@@ -16,5 +16,12 @@ using source code and Github so that the user can participate in early testing a
 First we have to clone the repository pbbp-v1.
 
 '''
-  git clone https://github.com/kamir/pbbp-v1 NAME_OF_YOUR_INSTANCE
+  git clone https://github.com/kamir/pbbp-v1
+
+Here we simply use the name *pbbp-v1*.
+
+'''
+  cd pbbp-v1/bin
+  ./bootstrap.sh
+
 
