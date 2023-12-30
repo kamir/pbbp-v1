@@ -1,0 +1,20 @@
+= How to setup a personal bot using the "PBBP-Repo"
+Mirko Kämpf <mirko@semanpic.de>
+1.0, December 30, 2023: Operations Manual
+
+:toc:
+:icons: font
+:url-quickref: https://docs.asciidoctor.org/asciidoc/latest/syntax-quick-reference/
+
+This document describes how we create a new Personal Bot instance from a Personal Bot BluePrint project as provided in this repository.
+
+The primary goal of this task is the creation of an instance on a computer,
+using source code and Github so that the user can participate in early testing and development work.
+
+== Step 1
+
+First we have to clone the repository pbbp-v1.
+
+'''
+  git clone https://github.com/kamir/pbbp-v1 NAME_OF_YOUR_INSTANCE
+

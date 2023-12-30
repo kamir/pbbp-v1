@@ -1,0 +1,13 @@
+confluent-kafka
+confluent-kafka[configparser]
+flask-cors
+pyopenssl
+docx2txt
+pypdf
+pyyaml
+google-cloud-storage
+google-cloud-speech
+llama_index
+tiktoken
+openai
+langchain
