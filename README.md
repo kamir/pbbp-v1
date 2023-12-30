@@ -22,7 +22,10 @@ git clone --recursive https://github.com/kamir/pbbp-v1 $my_bot_name
 cd $my_bot_name
 git branch $my_branch
 git checkout $my_branch
-cd bin
+
+git branch --set-upstream-to=origin/main $my_branch
+
+pwd  <---- output of this command will be used in Step 2
 ```
 
 ## Step 2
@@ -37,7 +40,14 @@ Configure the Python environment in _**assistent/init-venv-dev.h**_ and in _**bi
 This allows us to switch between a well working virtual environment and one for development activities.
 
 ## Step 4
-Run _**bootstrap.sh**_.
+Run _**bootstrap.sh**_ in _**bin**_ folder.
 
 ![docu/images/img1.png](docu/images/img1.png)
+
+## Congratulations!
+
+Now your are ready to work with your Git-managed Personal-Assistant-Environment.
+
+
+
 
