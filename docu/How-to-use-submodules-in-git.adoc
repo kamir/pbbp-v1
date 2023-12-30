@@ -1,0 +1,77 @@
+## How to use Submodules in Git?
+
+Adding a submodule to a Git repository allows you to include and track the contents of another repository within your own repository. This is useful for including libraries, frameworks, or other shared components in your project while keeping their source code in separate repositories. Here's how you can add a submodule to a Git repository:
+
+### 1. **Navigate to Your Main Repository:**
+Open your terminal or command prompt, and change the directory to your main Git repository (the one you want to add a submodule to):
+
+```bash
+cd /path/to/your/main/repo
+```
+
+### 2. **Add the Submodule:**
+Use the `git submodule add` command followed by the URL of the repository you want to add as a submodule. You should also specify the path within your main repository where you want the submodule to reside:
+
+```bash
+git submodule add <URL-of-submodule-repo> <path/where/submodule/should/go>
+```
+
+- `<URL-of-submodule-repo>`: This is the clone URL of the repository you want to add as a submodule (e.g., `https://github.com/user/submodule-repo.git`).
+- `<path/where/submodule/should/go>`: This is the path within your main repository where the submodule will be placed (e.g., `libs/submodule-repo`).
+
+For example:
+
+```bash
+git submodule add https://github.com/user/submodule-repo.git libs/submodule-repo
+```
+
+### 3. **Initialize the Submodule:**
+After adding the submodule, you'll want to initialize it and clone its content. If you're using Git version 2.13 or newer, the submodule will automatically initialize and clone after adding. For older versions, or if you need to manually initialize and update the submodule, use:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 4. **Commit the Changes:**
+Adding a submodule will change the main repository's `.gitmodules` file and will add a new subdirectory where the submodule's content is stored. You'll need to commit these changes:
+
+```bash
+git add .
+git commit -m "Added submodule at libs/submodule-repo"
+```
+
+### 5. **Clone a Repository with Submodules:**
+If someone is cloning your repository and you have submodules in it, they will need to clone recursively to initialize and update each submodule:
+
+```bash
+git clone --recursive <URL-of-your-main-repo>
+```
+
+Or if they've already cloned the repository, they can initialize and update the submodules with:
+
+```bash
+git submodule update --init --recursive
+```
+
+### 6. **Update the Submodule:**
+Occasionally, you might want to update the submodule to the latest commit available from its remote repository:
+
+```bash
+cd <path/where/submodule/should/go>
+git pull origin master  # Or whatever branch you want to pull
+```
+
+Then, go back to your main repository, stage, commit, and push the changes:
+
+```bash
+cd /path/to/your/main/repo
+git add .
+git commit -m "Updated submodule to the latest version"
+git push
+```
+
+### Notes:
+- **Submodule Pointers**: A submodule in your repository points to a specific commit in the submodule's repository, not to a "live" branch. This means that if the submodule's repository is updated, you won't automatically get those changes; instead, you'll need to update the submodule as described in step 6.
+- **Working with Branches**: If the submodule should track a branch other than the default, you can specify it with `-b <branch>` in the `git submodule add` command.
+
+By following these steps, you can add and manage a submodule in your Git repository, allowing you to keep a separate project as part of your repository.
