@@ -4,3 +4,6 @@
 [submodule "/Users/mkaempf/Desktop/Coaching-S.F./C4B/PoCs/pbbp-v1/data-stage"]
 	path = /Users/mkaempf/Desktop/Coaching-S.F./C4B/PoCs/pbbp-v1/data-stage
 	url = https://github.com/kamir/my-memories-mk-v1-001
+[submodule "/Users/mkaempf/MKBOT-01/assistants/opi-bot-poc"]
+	path = /Users/mkaempf/MKBOT-01/assistants/opi-bot-poc
+	url = https://github.com/kamir/opi-bot-poc
