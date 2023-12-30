@@ -1,6 +1,6 @@
 #!/bin/bash
 
-source ./../cfg/env.sh
+source ./../cfg/.env.sh
 
 source $BOT_BASE_DIR/bin/init-venv.sh
 
