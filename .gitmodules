@@ -1,1 +1,3 @@
-# in pbbp-v1 main this must be empty
+[submodule "/Users/mkaempf/Desktop/Coaching-S.F./C4B/ifdk-modules/pbbp-v1/assistants/opi-bot-poc"]
+	path = /Users/mkaempf/Desktop/Coaching-S.F./C4B/ifdk-modules/pbbp-v1/assistants/opi-bot-poc
+	url = https://github.com/kamir/opi-bot-poc
