@@ -25,4 +25,4 @@ mkdir $BOT_BASE_DIR/data-stage/context3
 #
 # We use some of the OPI-BOT-COMPONENTS
 #
-source $BOT_BASE_DIR/assisstent/opi-bot-poc/components/asynch-event-api/bootstrap.sh true
+source $BOT_BASE_DIR/assistants/opi-bot-poc/components/asynch-event-api/bootstrap.sh true
