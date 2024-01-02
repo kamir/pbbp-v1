@@ -1,0 +1,12 @@
+{
+    "text": "Hier habe ich mal die ecolytiq data-infrastructur zusammengefasst. Das Poster zeigt die unabhängig agierenden Applikationen App1 bis App3 und das Data Plane welches mit dem Data Lake (optional) und dem Data Warehouse verknüpft sind.\nBeide Datensysteme dienen dem BI-Reporting und später auch der Datenanalyse im Produktionssystem.",
+    "filename": "eco23-data-infra-PXL_20231229_131653054.jpg",
+    "authorName": "Mirko Kämpf",
+    "writtenDate": "2023-04-26",
+    "refinedDate": "2023-12-29",
+    "personalContext": "100 Tage Challenge",
+    "context": "100-day-writing-challenge",
+    "location": "Lat: 51.3125826, Long: 11.9270238",
+    "gcsUrl": "https://storage.googleapis.com/mk-ocr-bucket/./uploads/eco23-data-infra-PXL_20231229_131653054.jpg",
+    "refined": "done"
+}

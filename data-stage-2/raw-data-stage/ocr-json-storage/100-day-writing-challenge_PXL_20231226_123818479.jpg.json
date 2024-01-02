@@ -1,0 +1,12 @@
+{
+    "text": "Dien Namen solcher Assistenzsystems sind vielfältig. \nBots sind seit langem bekannt. Chatbots wurden in 2022 bis 2023 sehr berühmt, durch ChatGPT. Roboter kenn man aus dem letzten Jahrhundert, z.B. Schweiß- oder Lackierroboter.\n\nDie Wizzards und Assistenten innerhalb spezieller Software kennt man aus den 1990ern. \nMit den nun in 2023 vorhandenen Möglichkeiten lassen sich individuelle Assistenten erschaffen, und diese können vielfältige Skills ausprägen. Ein Assistent kann dazu aus mehreren Assistenten bestehen. Diese können sich frei koordinieren oder von einem Master koordiniert werden. Das sind dann Multi-Agenten Systeme.\n\nDigitale Assistenten können in Hierarchien und auch auf Augenhöhe miteinander interagieren. Dazu gibt es zwei Kooeperationsebenen:\n(1) Kommando und Response.\n(2) wie in (1) mittels Kommando und Response, jedoch unter Verwendung der gleichen Kontextdaten. \nDas bezieht sich auf das Modell und den Kontextdatenraum. Somit ergeben sich folgende Assistententypen:\n\n[1] Der sensorische Assistent\nDient der Wahrnehmung, Erkennung und Klassifikation.\n\n[2] Der memorische Assistent\nDient der Speicherung, der Suche, dem Abruf von Informationen \n\n[3] Der Transformatorische Assistent\nHilft anderen Assistenten beim Lernen neuer Skills und der Aufnahme neuer Erinnerungen\n\n[4] Der Kreative Assistent\nSchafft neue Inhalte aus bekannten Daten mit Verknüpfungen. \nDieser Modus kann auch auf Co-Thinking erweitert werden, siehe Modus (2) oben im Text.\n\n[5] Koordinations- und Orchestrierungs-Assistenten \nDiese weitere Form erlaubt es Assistenten gemeinsam an bestimmten Aufgaben zu arbeiten.",
+    "filename": "PXL_20231226_123818479.jpg",
+    "authorName": "Mirko Kämpf",
+    "writtenDate": "2023-12-23",
+    "refinedDate": "2023-12-26",
+    "personalContext": "100 Tage Challenge",
+    "context": "100-day-writing-challenge",
+    "location": "Lat: 51.3126538, Long: 11.9269758",
+    "gcsUrl": "https://storage.googleapis.com/mk-ocr-bucket/./uploads/PXL_20231226_123818479.jpg",
+    "refined": "done"
+}

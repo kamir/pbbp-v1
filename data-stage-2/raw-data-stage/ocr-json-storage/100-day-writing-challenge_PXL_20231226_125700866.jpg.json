@@ -1,0 +1,12 @@
+{
+    "text": "26. 12. 2023.\n\nMit dieser Schreibchallenge ist es eine interessante Sache.\nWas will ich erreichen? Ganz klar. Mein Geist soll\nIdeen und Einflüsse zuverlässig und schnell an\nden Assistenten übergeben können. Dazu muß ich\neinen Weg finden, der es mir erlaubt, regelmäßig\nso zu schreiben, daß ich (a) meine Kreativität\nfordere aber auch (b) die externen Einflüße\ngleich mit verarbeiten kann. Meine Gedanken und\nÜberlegungen sollen so\nabgelegt werden, daß ich\nmeinen Fokus auf meine aktuelle Problemstellung halten\nkann, nicht jedoch an das Ablagesystem denken muß.\nDas Einsortieren der Erinnerung soll unmittelbar über die Dimensionen\nOrt, Zeit, Person, Situationskontext, z.B. 100-Tage-Challenge erfolgen.\n\nFestlegung: Alle Fotos der geschriebenen Seiten werden\ndazu in Google Drive Ordner mit gleichen Namen abgelegt.\n\nDas Tool erzeugt den Text Extract and speichert\ndiesen in einem lokalen cache. Eine JSON Repräsentation wird auch auf der lokalen Platte abgelegt. Darin sind dann URL auf GCS Bucket, extrahierter Text und auch Tags enthalten.\nDie Textdaten und die Rohbilder lassen sich per Github-Repository versionieren.\n",
+    "filename": "PXL_20231226_125700866.jpg",
+    "authorName": "Mirko Kämpf",
+    "writtenDate": "2023-12-26",
+    "refinedDate": "2023-12-26",
+    "personalContext": "100 Tage Challenge",
+    "context": "100-day-writing-challenge",
+    "location": "Lat: 51.3126737, Long: 11.926906",
+    "gcsUrl": "https://storage.googleapis.com/mk-ocr-bucket/./uploads/PXL_20231226_125700866.jpg",
+    "refined": "done"
+}

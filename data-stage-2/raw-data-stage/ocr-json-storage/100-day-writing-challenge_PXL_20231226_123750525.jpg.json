@@ -1,0 +1,12 @@
+{
+    "text": "Deployment Automatisierung als Code und auch die KI generierten Deployment Skripte \nerlauben uns dann ein sehr personal-armes Unternehmen zu schaffen, in dem Assistenten die teueren Aufgaben abnehmen. \n\nDer Sparfaktor soll zwischen 7 and 10.000 liegen, je nachdem auf welcher Abstraktionseben\nman es betrachtet.\n\nBetrachtung zur Anatomie der Assistenten\n\nAus der klassischen Informatik kennen wir daa EVA Prinzip.\nEin Computer bekommt Eingaben, die er verararbeitet und ggf. speichert. \nDas Resultat ist entweder eine Änderung seines Zustands, oder eine Ausgabe.\n\nZustandsänderung kann die Daten oder / und sein\nProgramm betreffen. Das Verhalten ist teils im\nProgramm festgelegt, teils beeinflussen auch die Daten das Verhalten, als Parameter\noder Funktionsargumente. Das macht dieses System sehr flexibel.\n\nDigitale Assistenten zeigen eine ähnliche Struktur. \nMan kann sich einzelne Experten System vorstellen, die dem EVA Prinzip folgen, kooperieren,\nfast verdrahtet oder frei koordiniert, und dabei\nohne Menschlichen Beitrag (ohne direkten) sich ihrer Umgebung anpassen.\n\nDer Primärbeitrag des Programmierens mit bestimmter Absicht muss vom indirekten Beitrag, der sich aus dem selbstständigen Lernen aus den Daten ergibt abgegrenzt werden.",
+    "filename": "PXL_20231226_123750525.jpg",
+    "authorName": "Mirko Kämpf",
+    "writtenDate": "",
+    "refinedDate": "",
+    "personalContext": "100 Tage Challenge",
+    "context": "100-day-writing-challenge",
+    "location": "Lat: 51.3126736, Long: 11.9269167",
+    "gcsUrl": "https://storage.googleapis.com/mk-ocr-bucket/./uploads/PXL_20231226_123750525.jpg",
+    "refined": "done"
+}

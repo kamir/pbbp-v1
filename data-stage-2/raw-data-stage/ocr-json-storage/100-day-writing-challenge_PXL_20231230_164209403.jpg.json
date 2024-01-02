@@ -1,0 +1,12 @@
+{
+    "text": "Die Geburt eines\nPersonal Bot.\nAls Grundlage dient das Por Projekt OPC- BOT.\nZiel ist es,\nmittel Git Repositories sowohl den\nProgram\ncode als auch die Daten der Bets für\nden Betrict auf einem Lab - PC zu\norganisieren.\n30.12.2023\nMittels Clone Prozedur wird das Basis-Repo\ngeclont. Darin befindet sich das Bootstrapper\nStript. Mit diesem\nwerden alle relevanten Jub-\nModule hinzugefügt. Im Moment wäre das\nOPI - BOT\" Repository wobei nur\nrelevant bind.\ndas gesamte\nDer Ordner\ndie Componenten\nPersonal Bot Context dient uns als Bluepoint.\nDaraus folgt auch, dap das Repository OPI -BOT\nein reines Entwickler Repo ist. Mirke und Welf-\ngang\nwerden zur Enthopplung ihrer Daten be\nstände schon jeweils ein personal Bot Projekt\nanlegen\n-\nUnser Bot - Bachend nutzt folgende Speicher\nfür eigene Daten\nlokal files (in Gitant Control)\nGCS Bucket\nGCP Firestore\nGithub\n(Neo43)\n(Selid Datapod)\n1",
+    "filename": "PXL_20231230_164209403.jpg",
+    "authorName": "Mirko Kämpf",
+    "writtenDate": "2023-12-30",
+    "refinedDate": "2023-12-30",
+    "personalContext": "100 Tage Challenge",
+    "context": "100-day-writing-challenge",
+    "location": "Lat: 51.312637, Long: 11.926999",
+    "gcsUrl": "https://storage.googleapis.com/mk-ocr-bucket/./../../../../data-stage/raw-data-temp/ocr-uploads/PXL_20231230_164209403.jpg",
+    "refined": "t.b.d"
+}
