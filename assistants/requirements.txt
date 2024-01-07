@@ -11,3 +11,4 @@ llama_index
 tiktoken
 openai
 langchain
+chainlit

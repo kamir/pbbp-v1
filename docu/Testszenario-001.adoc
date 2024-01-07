@@ -1,0 +1,16 @@
+## Nutzung von 2 individuallen Index-Strukturen
+
+### Datenbasis
+
+image::images/image-2024-01-01-19-15-10-462.png[]
+
+Mit diesen Dateien befragen wir das System, nach einer speziellen im Logbuch erwähnten Thematik.
+
+*Frage 1:* Wann hatte WolfgangBefürchtungen in Bezug auf Verminderung der Fähigkeit seiner
+Gehirnleistungen?
+
+*Frage 2:* Bitte fasse zusammen was er dachte.
+
+### Resultat
+
+image::images/image-2024-01-01-19-13-29-425.png[]

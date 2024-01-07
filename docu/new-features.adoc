@@ -1,0 +1,9 @@
+https://levelup.gitconnected.com/create-a-q-a-chatbot-for-your-google-docs-with-llamaindex-openai-and-chainlit-a1c837146ce6
+
+https://medium.com/@gil.fernandes/hr-chatbot-with-langchain-and-chainlit-52728b2f8c5
+
+https://python.langchain.com/docs/modules/data_connection/indexing
+
+
+# Store Vectors in S3
+https://medium.com/how-ai-built-this/llamaindex-comprehensive-guide-on-storage-99ca9851be9c
