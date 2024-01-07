@@ -6,4 +6,8 @@
 #
 #  Example: . /Users/mkaempf/opt/anaconda3/bin/activate && conda activate /Users/mkaempf/opt/anaconda3/envs/p4te;
 #
-. /Users/mkaempf/opt/anaconda3/bin/activate && conda activate /Users/mkaempf/opt/anaconda3/envs/opi-bot-v2-dev;
+export ENVIRONMENT_PATH=/Users/mkaempf/opt/anaconda3/envs/opi-bot-v2-dev
+
+echo "> Activate PYTHON V-ENV in path: $ENVIRONMENT_PATH"
+
+. /Users/mkaempf/opt/anaconda3/bin/activate && conda activate $ENVIRONMENT_PATH;

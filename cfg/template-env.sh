@@ -2,6 +2,8 @@
 
 export BOT_BASE_DIR=...
 
+export BOT_ROOT_DOC_XMIND="xmind-root-doc
+
 export DIR_RAW_DATA_TEMP="$BOT_BASE_DIR/data-stage/raw-data-temp"
 export DIR_RAW_DATA_STAGE="$BOT_BASE_DIR/data-stage/raw-data-stage"
 export DIR_CONTEXT1="$BOT_BASE_DIR/data-stage/context1"
